@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="50" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="42">
+ <tileset firstgid="1" name="Un 2" tilewidth="64" tileheight="64" tilecount="18" columns="6">
+  <image source="Un 2.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="Un 4" tilewidth="64" tileheight="64" tilecount="18" columns="6">
+  <image source="Un 4.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="37" name="Wire" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="Wire.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="38" name="Door" tilewidth="64" tileheight="64" tilecount="4" columns="2">
+  <image source="Door.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="42" name="Monster 1" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../../monster/round_2/monster_7/7-1.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Mon19"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="43" name="Monster 2" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../../monster/round_2/monster_22/22-1.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Mon20"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="44" name="Precious" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="Precious.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Tip1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="45" name="Power" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="Power.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Power"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="46" name="2" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../map_4/Precious.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Tip2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer id="2" name="Image Layer 1">
+  <image source="background2_2.png" width="3200" height="640"/>
+ </imagelayer>
+ <layer id="1" name="Tiled Layer 1" width="50" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzNk1sKgzAQRcdHxWrpg1p3ULW7cqkurcd+lSEwJukjF85HGELOhYxI+rmLLO/82yc0ORRQwk5eveYUPHxTwx4aaCWsx3rH8tBzfdYesQntYXno+ae9XU6/uPPtpLIfsfvi6jHA6Onh62n9u9heayZ4GF6x+3GEE5zh4jhbvayeFWQbvPW7V+jgBr3hqWeuHlYvfdbvH+AJSjAObQ==
+  </data>
+ </layer>
+ <objectgroup id="3" name="Object Layer 1">
+  <object id="1" x="0" y="544" width="320" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="2" x="320" y="480" width="256" height="160">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="3" x="576" y="416" width="256" height="224">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="4" x="576" y="160" width="256" height="128">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="5" x="1088" y="160" width="512" height="112">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="6" x="1600" y="96" width="256" height="128">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="7" x="1088" y="416" width="512" height="224">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="8" x="1600" y="352" width="512" height="288">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="9" x="2112" y="416" width="256" height="224">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="10" x="2368" y="480" width="512" height="160">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="11" x="2624" y="32" width="256" height="128">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="12" x="3136" y="480" width="64" height="160">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="13" x="512" y="288" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="14" x="512" y="192" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="15" x="512" y="144" width="64" height="48">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="16" x="2880" y="352" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="17" x="2880" y="256" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="18" x="2880" y="160" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="19" x="2880" y="64" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="20" x="2880" y="16" width="64" height="48">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="21" x="64" y="448" width="64" height="64">
+   <properties>
+    <property name="name" value="Start"/>
+   </properties>
+  </object>
+  <object id="22" x="1088" y="272" width="480" height="16">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="24" x="832" y="544" width="256" height="96">
+   <properties>
+    <property name="name" value="End1"/>
+   </properties>
+  </object>
+  <object id="25" x="2880" y="544" width="256" height="96">
+   <properties>
+    <property name="name" value="End2"/>
+   </properties>
+  </object>
+  <object id="26" gid="42" x="768" y="448" width="64" height="64"/>
+  <object id="27" gid="43" x="3008" y="576" width="64" height="64"/>
+  <object id="35" gid="45" x="1792" y="128" width="64" height="64"/>
+  <object id="40" gid="44" x="512" y="512" width="64" height="64"/>
+  <object id="41" gid="46" x="2816" y="512" width="64" height="64"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="112">
+ <tileset firstgid="1" name="Door" tilewidth="64" tileheight="64" tilecount="4" columns="2">
+  <image source="Door.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="5" name="Un 2" tilewidth="64" tileheight="64" tilecount="18" columns="6">
+  <image source="Un 2.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="23" name="Un 5" tilewidth="64" tileheight="64" tilecount="18" columns="6">
+  <image source="Un 5.png" width="384" height="192"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="name" value="Soil"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="41" name="Wire" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="Wire.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="42" name="Precious" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="Precious.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Tip1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="43" name="Monster 1" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../../monster/round_4/monster_8/8-1.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Mon50"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="44" name="Monster 2" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../../monster/round_4/monster_4/4-1.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Mon51"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="45" name="2" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="Precious.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="Tip2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer id="3" name="Image Layer 1">
+  <image source="background4_1.png" width="1920" height="640"/>
+ </imagelayer>
+ <layer id="1" name="Tiled Layer 1" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztktkJwDAMQ937PugxRLfq/lNU+QgEYUgNoV8VPAiRkRyIyK8vlIGc7mrQgBZ04BK5vefOVl/rK0BJ3ggmMINFybX6oXxfpbxvAzs4wKnkWn3O78EgcXGu1WetL3tTy/eORGpxftgb/gOei+0Vm+d81/sAfbYMzg==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="33" gid="43" x="448" y="576" width="64" height="64"/>
+  <object id="34" gid="44" x="1408" y="576" width="64" height="64"/>
+  <object id="35" gid="23" x="192" y="448" width="64" height="64"/>
+  <object id="36" gid="23" x="192" y="512" width="64" height="64"/>
+  <object id="37" gid="23" x="256" y="448" width="64" height="64"/>
+  <object id="38" gid="23" x="256" y="512" width="64" height="64"/>
+  <object id="39" gid="23" x="512" y="448" width="64" height="64"/>
+  <object id="40" gid="23" x="512" y="512" width="64" height="64"/>
+  <object id="42" gid="23" x="512" y="576" width="64" height="64"/>
+  <object id="43" gid="23" x="832" y="448" width="64" height="64"/>
+  <object id="44" gid="23" x="832" y="512" width="64" height="64"/>
+  <object id="45" gid="23" x="832" y="576" width="64" height="64"/>
+  <object id="46" gid="23" x="896" y="448" width="64" height="64"/>
+  <object id="47" gid="23" x="896" y="512" width="64" height="64"/>
+  <object id="48" gid="23" x="896" y="576" width="64" height="64"/>
+  <object id="49" gid="23" x="960" y="448" width="64" height="64"/>
+  <object id="50" gid="23" x="960" y="512" width="64" height="64"/>
+  <object id="51" gid="23" x="960" y="576" width="64" height="64"/>
+  <object id="53" gid="23" x="1024" y="448" width="64" height="64"/>
+  <object id="54" gid="23" x="1024" y="512" width="64" height="64"/>
+  <object id="55" gid="23" x="1024" y="576" width="64" height="64"/>
+  <object id="56" gid="23" x="1344" y="448" width="64" height="64"/>
+  <object id="57" gid="23" x="1344" y="512" width="64" height="64"/>
+  <object id="58" gid="23" x="1344" y="576" width="64" height="64"/>
+  <object id="59" gid="23" x="1600" y="448" width="64" height="64"/>
+  <object id="60" gid="23" x="1600" y="512" width="64" height="64"/>
+  <object id="61" gid="23" x="1664" y="512" width="64" height="64"/>
+  <object id="62" gid="23" x="1664" y="448" width="64" height="64"/>
+  <object id="63" gid="23" x="320" y="448" width="64" height="64"/>
+  <object id="64" gid="23" x="384" y="448" width="64" height="64"/>
+  <object id="65" gid="23" x="448" y="448" width="64" height="64"/>
+  <object id="66" gid="23" x="1408" y="448" width="64" height="64"/>
+  <object id="67" gid="23" x="1472" y="448" width="64" height="64"/>
+  <object id="68" gid="23" x="1536" y="448" width="64" height="64"/>
+  <object id="69" x="64" y="192" width="64" height="64">
+   <properties>
+    <property name="name" value="Start"/>
+   </properties>
+  </object>
+  <object id="70" x="1792" y="192" width="128" height="128">
+   <properties>
+    <property name="name" value="End"/>
+   </properties>
+  </object>
+  <object id="71" x="0" y="288" width="320" height="64">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="72" x="320" y="160" width="256" height="192">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="73" x="832" y="160" width="256" height="224">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="74" x="1344" y="160" width="256" height="224">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="75" x="1600" y="288" width="320" height="64">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="76" x="1856" y="352" width="64" height="288">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="77" x="0" y="352" width="64" height="288">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="78" x="64" y="480" width="128" height="160">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="79" x="192" y="528" width="128" height="112">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="80" x="320" y="544" width="192" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="81" x="576" y="544" width="256" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="82" x="512" y="576" width="64" height="64">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="83" x="1088" y="544" width="256" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="84" x="1344" y="576" width="64" height="64">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="86" x="1408" y="544" width="192" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="87" x="1600" y="512" width="128" height="128">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="88" x="1728" y="480" width="128" height="160">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="89" x="576" y="352" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="90" x="576" y="256" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="91" x="576" y="160" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="92" x="576" y="144" width="64" height="16">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="93" x="768" y="352" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="94" x="768" y="256" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="95" x="768" y="160" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="96" x="768" y="144" width="64" height="16">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="97" x="1088" y="352" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="98" x="1088" y="256" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="99" x="1088" y="160" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="100" x="1088" y="144" width="64" height="16">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="101" x="1280" y="352" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="102" x="1280" y="256" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="103" x="1280" y="160" width="64" height="96">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="104" x="1280" y="144" width="64" height="16">
+   <properties>
+    <property name="name" value="Wire"/>
+   </properties>
+  </object>
+  <object id="105" x="832" y="624" width="256" height="16">
+   <properties>
+    <property name="name" value="End1"/>
+   </properties>
+  </object>
+  <object id="110" gid="42" x="64" y="512" width="64" height="64"/>
+  <object id="111" gid="45" x="1792" y="512" width="64" height="64"/>
+ </objectgroup>
+</map>
